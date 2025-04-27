@@ -1,21 +1,21 @@
 body {
-    background: linear-gradient(135deg, #facc15, #f97316);
+    background: linear-gradient(135deg, #0f766e, #3b82f6); /* Deep teal to electric blue */
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    color: #1f2937;
+    color: #1e293b; /* Slate gray for text */
 }
 
 .container {
-    background: #fff7ed;
+    background: #f1f5f9; /* Soft neutral slate */
     border-radius: 20px;
     padding: 2.5rem;
     width: 100%;
     max-width: 450px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     border: 2px solid transparent;
     background-clip: padding-box;
     position: relative;
@@ -28,7 +28,7 @@ body {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(135deg, #f97316, #facc15);
+    background: linear-gradient(135deg, #fb7185, #f472b6); /* Coral to soft pink gradient border */
     z-index: -1;
     border-radius: 20px;
 }
@@ -38,7 +38,7 @@ h1 {
     font-weight: 600;
     text-align: center;
     margin-bottom: 2rem;
-    color: #d97706;
+    color: #0284c7; /* Bright sky blue */
 }
 
 form {
@@ -50,16 +50,16 @@ form {
 label {
     font-size: 1rem;
     font-weight: 500;
-    color: #374151;
+    color: #334155; /* Dark slate for labels */
 }
 
 input[type="time"] {
     padding: 12px;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #cbd5e1; /* Light slate border */
     border-radius: 10px;
     width: 100%;
-    background: #fafafa;
-    color: #1f2937;
+    background: #ffffff; /* Pure white background */
+    color: #1e293b; /* Slate gray text */
     font-size: 1rem;
     transition: all 0.3s ease;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -67,12 +67,12 @@ input[type="time"] {
 
 input[type="time"]:focus {
     outline: none;
-    border-color: #10b981;
-    box-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+    border-color: #fb7185; /* Coral focus border */
+    box-shadow: 0 0 10px rgba(251, 113, 133, 0.3); /* Coral glow */
 }
 
 button {
-    background: #f97316;
+    background: #fb7185; /* Vibrant coral button */
     color: #ffffff;
     padding: 14px;
     border: none;
@@ -84,7 +84,7 @@ button {
 }
 
 button:hover {
-    background: #ea580c;
+    background: #f43f5e; /* Slightly deeper coral on hover */
     transform: scale(1.05);
 }
 
@@ -93,7 +93,7 @@ button:hover {
     font-weight: 500;
     text-align: center;
     margin-top: 2rem;
-    color: #b45309;
+    color: #0369a1; /* Deep sky blue for status */
     animation: bounce 0.5s ease-in-out;
 }
 
